@@ -1,0 +1,58 @@
+{
+  "development": {
+    "username": "pstgres",
+    "password": null,
+    "database": "app_development",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": "Sequelize.Op",
+    "dialectOptions" : {
+      "timezone" :"Asia/Tehran"
+    },
+    "timezone" :"Asia/Tehran"
+  },
+  "test": {
+    "username": "postgres",
+    "password": null,
+    "database": "app_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": "Sequelize.Op",
+    "dialectOptions" : {
+      "timezone" :"Asia/Tehran"
+    },
+    "timezone" :"Asia/Tehran"
+  },
+  "production": {
+    "username": "postgres",
+    "password": null,
+    "database": "app",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": "Sequelize.Op",
+    "dialectOptions" : {
+      "timezone" :"Asia/Tehran"
+    },
+    "timezone" :"Asia/Tehran",
+    "logging" : false
+  },
+  "cloudStorageURI" : "http://192.168.1.5/files/uploads",
+  "debugMode": false,
+  "redisCluster": "localhost",
+  "redisPort" : "6379",
+  "redisPrefix" : "app",
+  "DefaultRowsLimit" : 20,
+  "JWTAccessSecret" : "5678Xqo1xi3an@1qaz2wsx",
+  "JWTAccessSecretExpiresIn" : "45d",
+  "JWTRefreshSecret" : "Qxcv2Arxm2AqAn@1qaz$%2wsx",
+  "JWTRefreshSecretExpiresIn" : "60d",
+  "JWTemailVerificationSecret": "@am$akxa5687wz$e1madsdf",
+  "JWTemailVerificationExpiresIn" : "1min",
+  "MaxLoginAttempts": 150,
+  "LoginBanTimeout" : 1,
+  "verificationPeriod" : 60,
+  "mimeTypes" : {
+      "images" : ["image/bmp", "image/gif", "image/vnd.microsoft.icon", "image/jpeg","image/png", "image/svg+xml","image/tiff","image/webp"],
+      "documents" : ["application/pdf","application/msword","application/vnd.openxmlformats-officedocument.wordprocessingml.document","application/epub+zip"]
+  }
+}
